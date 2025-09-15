@@ -30,7 +30,7 @@
                  shadow-[0px_3px_6px_#00000029]
                 rounded-[10px] opacity-100 px-6 py-3">
                 <span class="inline-flex items-center justify-center w-[19px] h-[19px] rounded-full bg-white">
-                <svg class="w-[12px] h-[12px] text-green-500" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                <svg class="w-[10] h-[10] text-green-500" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
                     <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 111.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
                 </svg>
                 </span>
@@ -68,7 +68,7 @@
                             </p>
                         </div>
                         <div class="flex items-center gap-2 mb-5">
-                            <img class="w-[30px] h-[29px]" src="{{ asset('images/livret.png') }}" alt="reservation icon">
+                            <img class="w-[30px] h-[29px]" src="{{ asset('images/livret.png') }}" alt="livret icon">
                             <p class="text-[20px] leading-[24px] font-normal text-[#2C2C2C] opacity-100">
                                 Livret de préparation au test psychotechnique
                             </p>

@@ -64,13 +64,13 @@
                             </p>
                         </div>
                         <div class="flex items-center gap-2 mb-5">
-                            <img class="w-[30px] h-[29px]" src="{{ asset('images/livret_bleu.png') }}" alt="reservation icon">
+                            <img class="w-[30px] h-[29px]" src="{{ asset('images/livret_bleu.png') }}" alt="livret icon">
                             <p class="text-[20px] leading-[24px] font-normal text-[#2C2C2C] opacity-100">
                                 Livret de préparation au test psychotechnique
                             </p>
                         </div>
                         <div class="flex items-center gap-2 mb-5">
-                            <img class="w-[30px] h-[29px]" src="{{ asset('images/telecharger_bleu.png') }}" alt="reservation icon">
+                            <img class="w-[30px] h-[29px]" src="{{ asset('images/telecharger_bleu.png') }}" alt="telecharger icon">
                             <p class="text-[20px] leading-[24px] font-normal text-[#2C2C2C] opacity-100">
                                 Téléchargez vos résultats en illimité
                             </p>

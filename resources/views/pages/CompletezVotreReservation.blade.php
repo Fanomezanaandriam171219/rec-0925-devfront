@@ -13,5 +13,6 @@
                 <x-card-complet/>
             </div>
         </div>
+        <x-footer/>
     </div>
 @endsection
