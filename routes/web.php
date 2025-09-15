@@ -16,3 +16,15 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::get('/test-page', function () {
+    return view('test.test');
+});
+
+Route::get('/randriamihajarison-completez-votre-reservation', function () {
+    return view('pages.CompletezVotreReservation');
+});
+
+Route::get('/reservation', function () {
+    return view('pages.reservation');
+});
