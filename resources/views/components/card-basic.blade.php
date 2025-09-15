@@ -1,5 +1,5 @@
 <div class="max-w-sm mx-auto mt-40">
-    <div>
+    <div class="bg-white shadow-[0px_3px_6px_#00000029] rounded-[37px] opacity-100">
         <div class="bg-white shadow-lg rounded-lg p-6">
             <div class=" text-center font-bold text-[28px] leading-[34px]
              tracking-[0px] text-[#2C2C2C]">
@@ -24,28 +24,32 @@
                     </p>
                 </button>
             </div>
-            <div class="flex items-center gap-2">
-                <img src="{{ asset('images/hand_white.png') }}" alt="hand icon">
-                <p class="text-left text-[20px]
+            <div class="mt-20">
+                <div class="flex items-center gap-2 mb-5 ">
+                    <img class="w-[30px] h-[29px]"
+                         src="{{ asset('images/hand_white.png') }}" alt="hand icon">
+                    <p class="text-left text-[20px]
+                leading-[30px] font-normal
+                text-[#2C2C2C] opacity-100">
+                        Entraînement illimité et gratuit</p>
+                </div>
+                <div class="flex items-center gap-2 mb-5">
+                    <img class="w-[30px] h-[29px]"
+                         src="{{ asset('images/annulation.png') }}" alt="annulation icon">
+                    <p class="text-left text-[20px]
                 leading-[24px] font-normal
                 text-[#2C2C2C] opacity-100">
-                    Entraînement illimité et gratuit</p>
-            </div>
-            <div class="flex items-center gap-2">
-                <img src="{{ asset('images/hand_white.png') }}" alt="hand icon">
-                <p class="text-left text-[20px]
+                        Annulation jusqu'à 48 heures</p>
+                </div>
+                <div class="flex items-center gap-2 mb-5">
+                    <img class="w-[30px] h-[29px]"
+                         src="{{ asset('images/reservation.png') }}" alt="reservation icon">
+                    <p class="text-left text-[20px]
                 leading-[24px] font-normal
                 text-[#2C2C2C] opacity-100">
-                    Entraînement illimité et gratuit</p>
-            </div>
-            <div class="flex items-center gap-2">
-                <img src="{{ asset('images/hand_white.png') }}" alt="hand icon">
-                <p class="text-left text-[20px]
-                leading-[24px] font-normal
-                text-[#2C2C2C] opacity-100">
-                    Entraînement illimité et gratuit</p>
+                        Recevez votre test le jour j</p>
+                </div>
             </div>
         </div>
     </div>
-
 </div>

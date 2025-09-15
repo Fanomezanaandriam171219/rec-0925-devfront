@@ -12,7 +12,7 @@
             @vite('resources/css/app.css')
     </head>
     <body>
-    <main>
+    <main class="h-screen overflow-auto">
         @yield('content')
     </main>
     </body>
