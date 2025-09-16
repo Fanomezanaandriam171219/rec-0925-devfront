@@ -25,6 +25,6 @@ Route::get('/randriamihajarison-completez-votre-reservation', function () {
     return view('pages.CompletezVotreReservation');
 });
 
-Route::get('/reservation', function () {
-    return view('pages.reservation');
+Route::get('/randriamihajarison-paiement', function () {
+    return view('pages.paiement');
 });
